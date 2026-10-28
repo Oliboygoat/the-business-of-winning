@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-27T02:54:27.681395+00:00",
+  "verified_teams": 30,
+  "all_teams": {
+    "slope": 0.07941783410953637,
+    "intercept": 67.5826283852926,
+    "r": 0.4895908425591996,
+    "r_squared": 0.23969919311782698,
+    "p_value": 0.006032732576206308,
+    "n": 30
+  },
+  "excluding_colorado": {
+    "slope": 0.06821272067845723,
+    "intercept": 70.67562925638256,
+    "r": 0.5284954710550966,
+    "r_squared": 0.2793074629257485,
+    "p_value": 0.0032068385820654653,
+    "n": 29
+  },
+  "slope_change_percent": -14.10906449000433,
+  "colorado": {
+    "residual": -34.27215895964511,
+    "leverage": 0.047944218749946886,
+    "internally_studentized_residual": -3.3838470479859164,
+    "cooks_distance": 0.2883137167712418
+  },
+  "cooks_screening_threshold": 0.13333333333333333,
+  "source_sha256": {
+    "ap.html": "a404b7e6083f2feb93391f27fb01807b9f40816dab4760fd8a32546873a721b7",
+    "standings.json": "683532be80205de76678c5c3e76aa54df86ba9d6401fed3815ca634fd85c84e7",
+    "teams.json": "a98bc05bd9cb0920c6bf3741cd27b2d71ee8034f555a03e119d91d82adee287a"
+  }
+}

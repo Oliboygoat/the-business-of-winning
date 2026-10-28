@@ -1,0 +1,75 @@
+{
+  "private_suite": {
+    "passed": 118,
+    "failed": 0,
+    "seconds": 22.73,
+    "unchanged_original_suite": true
+  },
+  "candidate_suite": {
+    "passed": 124,
+    "failed": 0,
+    "seconds": 26.16,
+    "source_dependent_test_functions_adapted": 10,
+    "added_package_cases": 6,
+    "skipped_for_missing_sources": 0
+  },
+  "numerical_reconciliation": {
+    "rows": 180,
+    "teams_per_season": 30,
+    "input_csvs_byte_identical": true,
+    "annual_models": "match",
+    "colorado_sensitivity": "match",
+    "consistency_ap_and_mixed": "match"
+  },
+  "clean_runtime": {
+    "python": "3.12.14",
+    "installation": "fresh temporary venv from candidate committed source archive; only requirements.txt",
+    "pip_check": "No broken requirements found",
+    "no_original_repository_or_git_metadata_needed": true,
+    "smoke": {
+      "python": "3.12.14",
+      "records": 180,
+      "default_seasons": [
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "season_views": 6,
+      "demo_examples": 6,
+      "api_sdk_imported": false,
+      "paid_env_override_ignored": true,
+      "outbound_connections": 0,
+      "result": "passed"
+    },
+    "loopback_health_status": 200,
+    "loopback_health_body": "ok",
+    "browser_review": {
+      "overview_scatterplot": "rendered with unchanged design",
+      "free_demo_comparison": "Brewers/Mets exact calculated answer rendered",
+      "paid_mode_or_key_field": false
+    }
+  },
+  "wording_review": {
+    "normalized_20_word_source_overlap_findings": 0,
+    "scope": "Own Python/Markdown/CSV text compared to all eight excluded publisher captures; heuristic and editorial review, not a legal originality guarantee."
+  },
+  "publication": {
+    "source_captures_in_candidate": 0,
+    "raw_mlb_responses_in_candidate": 0,
+    "paid_api_requests": 0,
+    "remote_created": false,
+    "pushed": false,
+    "deployed": false,
+    "rights_resolved": false,
+    "owner_release_approved": false,
+    "history_review": "Single fresh local root commit; excluded source blobs and private ancestors absent"
+  },
+  "limitations": [
+    "Applicable acquisition terms and limited TBC repository/download scope remain unresolved.",
+    "Fingerprints prove baseline fidelity, not independent source verification or permission.",
+    "GitHub-hosted CI and Streamlit Cloud not executed.",
+    "Physical mobile and screen-reader review not performed."
+  ]
+}

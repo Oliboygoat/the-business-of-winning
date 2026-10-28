@@ -1,0 +1,34 @@
+{
+  "season": 2025,
+  "scope": "Opening Day payroll; final regular-season performance",
+  "built_at_utc": "2026-10-27T01:19:49.254576+00:00",
+  "sources": [
+    {
+      "file": "ap_payroll_2025.html",
+      "url": "https://www.thescore.com/mlb/news/3256460",
+      "publisher": "Associated Press via theScore",
+      "published": "2025-04-02"
+    },
+    {
+      "file": "mlb_standings_2025.json",
+      "url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2025&standingsTypes=regularSeason",
+      "publisher": "MLB Advanced Media"
+    },
+    {
+      "file": "mlb_teams_2025.json",
+      "url": "https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2025",
+      "publisher": "MLB Advanced Media"
+    }
+  ],
+  "sha256": {
+    "ap_payroll_2025.html": "24531b87945ac66959b016bc1ff932f31c2831f40afe80403b774e9ffe9c6d07",
+    "mlb_standings_2025.json": "683532be80205de76678c5c3e76aa54df86ba9d6401fed3815ca634fd85c84e7",
+    "mlb_teams_2025.json": "a98bc05bd9cb0920c6bf3741cd27b2d71ee8034f555a03e119d91d82adee287a"
+  },
+  "public_archive_policy": {
+    "captures_distributed": false,
+    "source_files": "Historical private archive identifiers; not paths available in this public package.",
+    "reproduce": "Run scripts/verify_public_data.py and pytest; independent source re-extraction requires separately obtained source access.",
+    "rights": "Facts-only candidate; attribution is not permission. See PUBLICATION_RIGHTS.md; publication is not yet approved."
+  }
+}

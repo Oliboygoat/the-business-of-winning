@@ -1,0 +1,29 @@
+name: Public release checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # Audit every reachable public commit; no private history is required.
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q
+      - run: python scripts/audit_release.py
+      - run: python scripts/verify_public_data.py
+      - run: python scripts/check_publication.py
+      - name: Runtime-only smoke test without an AI SDK
+        run: |
+          python -m venv .runtime/public-venv
+          .runtime/public-venv/bin/python -m pip install -r requirements.txt
+          .runtime/public-venv/bin/python scripts/smoke_public.py --require-no-sdk

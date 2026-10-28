@@ -1,0 +1,2 @@
+# Test-only SDK: never installed by the public app requirements.
+openai==3.39.0

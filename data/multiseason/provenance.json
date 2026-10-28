@@ -1,0 +1,92 @@
+{
+  "built_at_utc": "2026-10-27T02:23:41.706234+00:00",
+  "seasons": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "observations": 180,
+  "sha256": {
+    "data/multiseason/raw/ap_2021.html": "f6f2ab48a85810a75956e654482008b949a5f1031cb88733421628b66841a47a",
+    "data/multiseason/raw/ap_2023.html": "41776ebc64a8a8f446b867db321e1e03fd9f23b25b30bceb6370e812c25d10ec",
+    "data/multiseason/raw/ap_2024.html": "6fb9b1cd77247b8ff9c3b1cab540c41b1df7229cd953817282b7edf09a551345",
+    "data/multiseason/raw/ap_2026_web.txt": "52a5d1812e80b8d3e14b5d81f4083f008a7cfea0e054161b93564ef83b9fa7a7",
+    "data/multiseason/raw/cpi_bls.json": "4f801435512d59be1c5130f42b23efe12a5ac28631ec50c13f3236c83f5b8f01",
+    "data/multiseason/raw/mlb_standings_2021.json": "1ae6054e7d1469f716d7b2adf98fef4b246c81c34fd0b2f7a9916c12049bcee7",
+    "data/multiseason/raw/mlb_standings_2022.json": "dfbc40cfde2bfeda4b5d95c0bb90af59975eb063896d359f37dbe5f0af935298",
+    "data/multiseason/raw/mlb_standings_2023.json": "5922288a83012c2a2ec1772533526543abe0c1d977c68c02b2492a3d20f6ba28",
+    "data/multiseason/raw/mlb_standings_2024.json": "1e70de5f50c3a3372b9dd4f059db204d962196dbca2148617f5584c48b50f624",
+    "data/multiseason/raw/mlb_standings_2026.json": "33af2f20ab0ff63b13df9e792af9d73f8e010c22f06e1fae29a712919df45a98",
+    "data/multiseason/raw/mlb_teams_2021.json": "1379aca0eaf41114a158401b6cbfc9520107f9bb98cc41e276872f70b0fdf971",
+    "data/multiseason/raw/mlb_teams_2022.json": "e9b8f74a520f55c790ec0348b90a678850c96ccec29efccc017b602ddba42242",
+    "data/multiseason/raw/mlb_teams_2023.json": "0779fa33912189d1fa9baac46e9ac0080bbadda16f8f726649076f58b75c1847",
+    "data/multiseason/raw/mlb_teams_2024.json": "69104633fe22b752a3d45b585ebebd28200ebda15e25f63faba20a491bc63b0a",
+    "data/multiseason/raw/mlb_teams_2026.json": "bb09edbe7653b80830433a0b0ab8a29cf82ec005cff2936bdc408c6e28a0b49e",
+    "data/multiseason/raw/tbc_2022_web.txt": "1426ae76a7d0263aed304083cbc2d939d603efd7b64b8a9ff73210bf2a9226af",
+    "data/multiseason/raw/tbc_2025_web.txt": "4d057e72aea668787bdbd7b759ea0623f89d7d6a7666a3de6469a0ed981bf2e6",
+    "data/raw/ap_payroll_2025.html": "24531b87945ac66959b016bc1ff932f31c2831f40afe80403b774e9ffe9c6d07",
+    "data/raw/mlb_standings_2025.json": "683532be80205de76678c5c3e76aa54df86ba9d6401fed3815ca634fd85c84e7",
+    "data/raw/mlb_teams_2025.json": "a98bc05bd9cb0920c6bf3741cd27b2d71ee8034f555a03e119d91d82adee287a"
+  },
+  "sources": [
+    {
+      "season": 2021,
+      "payroll_url": "https://chicago.suntimes.com/2021/4/16/22387899/mlb-average-player-salary-decreases-again",
+      "payroll_basis": "AP Opening Day",
+      "payroll_file": "data/multiseason/raw/ap_2021.html",
+      "standings_file": "data/multiseason/raw/mlb_standings_2021.json",
+      "teams_file": "data/multiseason/raw/mlb_teams_2021.json"
+    },
+    {
+      "season": 2022,
+      "payroll_url": "https://www.thebaseballcube.com/content/payroll_year/2022/",
+      "payroll_basis": "TBC alternate; excluded from default AP longitudinal cohort",
+      "payroll_file": "data/multiseason/raw/tbc_2022_web.txt",
+      "standings_file": "data/multiseason/raw/mlb_standings_2022.json",
+      "teams_file": "data/multiseason/raw/mlb_teams_2022.json"
+    },
+    {
+      "season": 2023,
+      "payroll_url": "https://www.thescore.com/mlb/news/2619756",
+      "payroll_basis": "AP Opening Day",
+      "payroll_file": "data/multiseason/raw/ap_2023.html",
+      "standings_file": "data/multiseason/raw/mlb_standings_2023.json",
+      "teams_file": "data/multiseason/raw/mlb_teams_2023.json"
+    },
+    {
+      "season": 2024,
+      "payroll_url": "https://www.thescore.com/mlb/news/2888009",
+      "payroll_basis": "AP Opening Day",
+      "payroll_file": "data/multiseason/raw/ap_2024.html",
+      "standings_file": "data/multiseason/raw/mlb_standings_2024.json",
+      "teams_file": "data/multiseason/raw/mlb_teams_2024.json"
+    },
+    {
+      "season": 2025,
+      "payroll_url": "https://www.thescore.com/mlb/news/3256460",
+      "payroll_basis": "AP Opening Day",
+      "payroll_file": "data/raw/ap_payroll_2025.html",
+      "standings_file": "data/raw/mlb_standings_2025.json",
+      "teams_file": "data/raw/mlb_teams_2025.json"
+    },
+    {
+      "season": 2026,
+      "payroll_url": "https://apnews.com/article/2026-major-league-baseball-opening-day-payrolls-5c5fdf7dfe19134f81889405b652786f",
+      "payroll_basis": "AP Opening Day",
+      "payroll_file": "data/multiseason/raw/ap_2026_web.txt",
+      "standings_file": "data/multiseason/raw/mlb_standings_2026.json",
+      "teams_file": "data/multiseason/raw/mlb_teams_2026.json"
+    }
+  ],
+  "cpi_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2021&endyear=2026",
+  "extraction_note": "AP 2026 and TBC tables captured through web tool because direct downloads returned 403; text retains source URL and numbered table lines.",
+  "public_archive_policy": {
+    "captures_distributed": false,
+    "source_files": "Historical private archive identifiers; not paths available in this public package.",
+    "reproduce": "Run scripts/verify_public_data.py and pytest; independent source re-extraction requires separately obtained source access.",
+    "rights": "Facts-only candidate; attribution is not permission. See PUBLICATION_RIGHTS.md; publication is not yet approved."
+  }
+}

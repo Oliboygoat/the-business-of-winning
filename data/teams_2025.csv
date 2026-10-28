@@ -1,0 +1,31 @@
+team_id,team,league,division,payroll,wins,losses,runs_scored,runs_allowed
+109,Arizona Diamondbacks,NL,NL West,195475535,80,82,791,785
+133,Athletics,AL,AL West,74908652,76,86,733,817
+144,Atlanta Braves,NL,NL East,208105000,76,86,724,734
+110,Baltimore Orioles,AL,AL East,159436000,75,87,677,788
+111,Boston Red Sox,AL,AL East,193629093,89,73,786,676
+112,Chicago Cubs,NL,NL Central,192788250,92,70,793,649
+145,Chicago White Sox,AL,AL Central,80908625,60,102,647,742
+113,Cincinnati Reds,NL,NL Central,115966833,83,79,716,681
+114,Cleveland Guardians,AL,AL Central,102523729,88,74,643,649
+115,Colorado Rockies,NL,NL West,122006986,43,119,597,1021
+116,Detroit Tigers,AL,AL Central,142428033,87,75,758,691
+117,Houston Astros,AL,AL West,220217013,87,75,686,665
+118,Kansas City Royals,AL,AL Central,129606656,82,80,651,637
+108,Los Angeles Angels,AL,AL West,192666966,72,90,673,837
+119,Los Angeles Dodgers,NL,NL West,319537290,93,69,825,683
+146,Miami Marlins,NL,NL East,64893725,79,83,709,798
+158,Milwaukee Brewers,NL,NL Central,114773471,97,65,806,634
+142,Minnesota Twins,AL,AL Central,142812022,70,92,678,773
+121,New York Mets,NL,NL East,322589724,83,79,766,715
+147,New York Yankees,AL,AL East,284815172,94,68,849,685
+143,Philadelphia Phillies,NL,NL East,283990117,96,66,778,648
+134,Pittsburgh Pirates,NL,NL Central,87883875,71,91,583,645
+135,San Diego Padres,NL,NL West,208771455,90,72,702,621
+137,San Francisco Giants,NL,NL West,173019524,81,81,705,684
+136,Seattle Mariners,AL,AL West,149981148,90,72,766,694
+138,St. Louis Cardinals,NL,NL Central,141455626,78,84,689,754
+139,Tampa Bay Rays,AL,AL East,79216312,77,85,714,683
+140,Texas Rangers,AL,AL West,217506332,81,81,684,605
+141,Toronto Blue Jays,AL,AL East,239242531,94,68,798,721
+120,Washington Nationals,NL,NL East,107241762,66,96,687,899

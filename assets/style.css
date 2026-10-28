@@ -1,0 +1,77 @@
+:root { --ink:#1d1d1f; --muted:#64676e; --blue:#246bd1; --line:#e6e8ec; --radius:18px; }
+html, body, [data-testid="stApp"] { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+[data-testid="stAppViewContainer"] { background:#f5f5f7; }
+[data-testid="stHeader"] { background:rgba(245,245,247,.94); }
+[data-testid="stMainBlockContainer"] { max-width:1360px; padding:4.5rem 3.25rem 4rem; }
+[data-testid="stToolbar"] { opacity:.6; }
+h1,h2,h3,h4,h5 { color:var(--ink); letter-spacing:-.035em; font-weight:650!important; }
+h1 { font-size:clamp(2.4rem,4.3vw,4rem)!important; line-height:1.08!important; padding:0!important; }
+h2 { font-size:1.9rem!important; } h3 { font-size:1.38rem!important; }
+p, li { line-height:1.65; }
+[data-testid="stCaptionContainer"] { color:var(--muted); }
+.masthead { display:flex; align-items:center; justify-content:space-between; padding:0 0 1.4rem; }
+.brand { display:flex; align-items:center; gap:11px; font-size:14px; font-weight:650; letter-spacing:-.2px; color:var(--ink); }
+.brand-mark { width:21px; height:21px; border:2px solid var(--blue); border-radius:6px; transform:rotate(45deg); display:inline-block; box-shadow:inset 0 0 0 4px #f5f5f7; background:#dbe8fb; }
+.season-label { color:var(--muted); font-size:12px; letter-spacing:.06em; }
+.eyebrow { color:var(--blue); font-size:11px; text-transform:uppercase; letter-spacing:.14em; font-weight:700; margin-bottom:16px; }
+.hero { padding:2.1rem 0 1.7rem; }
+.hero-subtitle { font-size:clamp(1.1rem,2.1vw,1.5rem); color:#545962; letter-spacing:-.02em; margin:16px 0 10px; }
+.hero-intro { color:var(--muted); font-size:14px; margin:0; max-width:650px; }
+.section-head { margin-top:22px; } .section-note { font-size:13px; color:var(--muted); margin:4px 0 18px; }
+.st-key-main_nav [role="tablist"] { gap:6px; border-bottom:1px solid var(--line); padding:0 0 12px; background:transparent; }
+.st-key-main_nav [role="tab"] { background:transparent; border-radius:10px; padding:10px 19px; height:42px; color:var(--muted); transition:background .18s,color .18s; }
+.st-key-main_nav [role="tab"][aria-selected="true"] { background:#e8eef9; color:#215fae; }
+.st-key-main_nav [role="tab"] p { font-size:13px; font-weight:600; }
+[data-baseweb="tab-highlight"], [data-baseweb="tab-border"] { display:none; }
+[data-testid="stMetric"] { background:#fff; border:1px solid #e9eaee; border-radius:var(--radius); padding:21px 23px; min-height:133px; box-shadow:0 3px 14px rgba(25,38,65,.025); }
+[data-testid="stMetricLabel"] { color:var(--muted); font-size:12px; }
+[data-testid="stMetricValue"] { color:var(--ink); font-size:28px; letter-spacing:-.04em; font-weight:650; }
+[data-testid="stMetricDelta"] { font-size:11px; color:var(--muted); }
+[data-testid="stVerticalBlock"][class*="st-key-card_"] { border-radius:var(--radius)!important; border-color:var(--line)!important; background:white; padding:23px!important; box-shadow:0 4px 18px rgba(25,38,65,.025); }
+[data-testid="stExpander"] { background:white; border:1px solid var(--line); border-radius:14px; }
+[data-testid="stExpander"] details { border:none!important; }
+[data-baseweb="select"] > div { border-radius:11px!important; border-color:var(--line)!important; background:#fff; }
+[data-testid="stButton"] button, [data-testid="stDownloadButton"] button { border-radius:10px; padding:8px 15px; font-size:13px; border-color:#dfe3e9; transition:background .18s,box-shadow .18s; }
+[data-testid="stButton"] button:hover, [data-testid="stDownloadButton"] button:hover { box-shadow:0 3px 10px rgba(36,107,209,.08); }
+[data-testid="stButton"] button:focus-visible, .st-key-main_nav [role="tab"]:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+[data-testid="stDataFrame"] { border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+[data-testid="stAlert"] { border-radius:13px; }
+[data-testid="stRadio"] > div { gap:20px; }
+.footer { margin-top:45px; padding-top:20px; border-top:1px solid var(--line); color:#747982; font-size:11px; }
+@media(max-width:900px) { [data-testid="stMainBlockContainer"]{padding:4rem 1.4rem 3rem;} [data-testid="stMetricValue"]{font-size:23px;} [data-testid="stMetric"]{padding:16px;min-height:120px;} }
+@media(max-width:640px) { [data-testid="stHorizontalBlock"]{flex-wrap:wrap!important;gap:12px!important;} [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]{min-width:calc(50% - 12px)!important;flex:1 1 calc(50% - 12px)!important;} .st-key-main_nav [role="tab"]{padding:8px 10px;} .st-key-main_nav [role="tab"] p{font-size:12px;} .hero{padding-top:1.5rem;} .season-label{font-size:10px;} [data-testid="stVerticalBlock"][class*="st-key-card_"]{padding:16px!important;} }
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important;} }
+
+.hero h1 { margin:0!important; }
+.hero {padding:1.6rem 0 1rem;}
+.st-key-main_nav .react-aria-SelectionIndicator {display:none;}
+.st-key-main_nav [role="tablist"] {gap:6px;overflow-x:auto;}
+.st-key-main_nav [role="tab"] {flex-shrink:0;cursor:pointer;border-bottom:0!important;}
+.st-key-card_overview_plot {margin-top:6px;}
+
+.section-head h2 {margin:0 0 8px!important;}
+.section-head .section-note {margin:0 0 18px!important;}
+
+/* Readable labels, visible keyboard focus, and comfortable narrow layouts. */
+[data-testid="stMetricLabel"] { white-space:normal; }
+[data-testid="stMetricLabel"] p { white-space:normal!important; overflow:visible!important; font-size:13px; line-height:1.4; }
+[data-testid="stMetricLabel"] [data-testid="stMarkdownContainer"] { overflow:visible!important; }
+[data-testid="stCaptionContainer"], .section-note { font-size:14px; }
+[data-testid="stApp"] :is(button,input,[role="combobox"],summary,a):focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+@media(max-width:640px) {
+  [data-testid="stMainBlockContainer"] { padding-left:1rem; padding-right:1rem; }
+  [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] { min-width:100%!important; flex-basis:100%!important; }
+  [data-testid="stMetricValue"] { font-size:25px; white-space:normal; }
+  .brand { max-width:75%; }
+}
+/* Streamlit applies its own paragraph color; keep context and caveats legible. */
+[data-testid="stCaptionContainer"] p { color:#64676e!important; opacity:1; font-size:14px; }
+[data-testid="stMetricValue"] [data-testid="stMarkdownContainer"],
+[data-testid="stMetricValue"] p { white-space:normal!important; overflow:visible!important; text-overflow:clip!important; overflow-wrap:normal; }
+[data-testid="stCaptionContainer"] { opacity:1!important; }
+
+/* The analyst shares the same card language as the rest of the product. */
+[data-testid="stChatMessage"] { border:1px solid var(--line); border-radius:18px; background:#fff; padding:22px; }
+[data-testid="stChatMessageContent"] { min-width:0; overflow-wrap:anywhere; }
+[data-testid="stChatInput"] { border-radius:14px; }
+@media(max-width:640px) { [data-testid="stChatMessage"] { padding:14px; } }

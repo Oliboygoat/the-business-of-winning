@@ -1,0 +1,32 @@
+{
+  "status": "LOCAL_FACTS_ONLY_CANDIDATE_NOT_CLEARED_FOR_PUBLICATION",
+  "rights_basis_resolved": false,
+  "owner_release_approved": false,
+  "proposed_records": 180,
+  "tbc_payroll_records": 30,
+  "tbc_years": [
+    2022
+  ],
+  "ap_payroll_records": 150,
+  "ap_years": [
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "ap_2022_replacement_recovered": false,
+  "synthetic_data": false,
+  "paid_ai_enabled": false,
+  "distribution_scope_needing_resolution": [
+    "Public source repository including numerical CSVs",
+    "Public charts, results, chat answers and downloads",
+    "Third-party cloning and redistribution of the repository"
+  ],
+  "open_questions": [
+    "AP/Sun-Times/theScore factual extraction and applicable terms/assent",
+    "MLB StatsAPI factual extraction and applicable terms/assent",
+    "TBC limited-use allowance for 30 team-level 2022 facts, including repository downloads and downstream reuse"
+  ],
+  "legal_review_or_adequate_permission_documented": false
+}
