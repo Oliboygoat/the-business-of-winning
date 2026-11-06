@@ -1,7 +1,7 @@
 {
-  "status": "LOCAL_FACTS_ONLY_CANDIDATE_NOT_CLEARED_FOR_PUBLICATION",
-  "rights_basis_resolved": false,
-  "owner_release_approved": false,
+  "status": "OWNER_AUTHORIZED_FACTS_ONLY_RELEASE",
+  "rights_basis_resolved": true,
+  "owner_release_approved": true,
   "proposed_records": 180,
   "tbc_payroll_records": 30,
   "tbc_years": [
@@ -18,15 +18,28 @@
   "ap_2022_replacement_recovered": false,
   "synthetic_data": false,
   "paid_ai_enabled": false,
-  "distribution_scope_needing_resolution": [
-    "Public source repository including numerical CSVs",
-    "Public charts, results, chat answers and downloads",
-    "Third-party cloning and redistribution of the repository"
-  ],
-  "open_questions": [
+  "legal_review_or_adequate_permission_documented": false,
+  "release_gate_basis": "Owner-provided payroll permission confirmation and explicit authorization of this reviewed facts-only candidate. This records the project release decision; it does not assert independent legal verification or adjudication of every source term.",
+  "owner_confirmation": {
+    "recorded_date": "2026-11-06",
+    "source": "Direct statement from the project owner in the release conversation",
+    "reviewed_candidate_commit": "7bb51fc397b37317ea9b8d1918fa2a4a175818a2",
+    "repository": "https://github.com/Oliboygoat/the-business-of-winning.git",
+    "statement": "I confirm that I have permission to publish the payroll data in both my public GitHub repository and the publicly accessible Streamlit dashboard, including the relevant AP and The Baseball Cube figures. I authorize you to publish the cleaned real-data release candidate.",
+    "independently_verified": false,
+    "license_terms_or_permission_documents_inspected": false,
+    "additional_license_terms_invented": false,
+    "streamlit_deployment_authorized": false,
+    "paid_ai_authorized": false
+  },
+  "historical_review_questions_not_independently_adjudicated": [
     "AP/Sun-Times/theScore factual extraction and applicable terms/assent",
     "MLB StatsAPI factual extraction and applicable terms/assent",
     "TBC limited-use allowance for 30 team-level 2022 facts, including repository downloads and downstream reuse"
   ],
-  "legal_review_or_adequate_permission_documented": false
+  "historical_distribution_scope_reviewed": [
+    "Public source repository including numerical CSVs",
+    "Public charts, results, chat answers and downloads",
+    "Third-party cloning and redistribution of the repository"
+  ]
 }

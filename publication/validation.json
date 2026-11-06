@@ -8,7 +8,7 @@
   "candidate_suite": {
     "passed": 124,
     "failed": 0,
-    "seconds": 26.16,
+    "seconds": 32.9,
     "source_dependent_test_functions_adapted": 10,
     "added_package_cases": 6,
     "skipped_for_missing_sources": 0
@@ -62,14 +62,23 @@
     "remote_created": false,
     "pushed": false,
     "deployed": false,
-    "rights_resolved": false,
-    "owner_release_approved": false,
-    "history_review": "Single fresh local root commit; excluded source blobs and private ancestors absent"
+    "rights_resolved": true,
+    "owner_release_approved": true,
+    "history_review": "Single fresh local root commit; excluded source blobs and private ancestors absent",
+    "rights_basis": "Owner-provided payroll permission assertion and explicit release decision, not independent legal clearance."
   },
   "limitations": [
-    "Applicable acquisition terms and limited TBC repository/download scope remain unresolved.",
+    "Payroll publication permission is owner-confirmed; underlying permission documents and historical contractual questions were not independently verified.",
     "Fingerprints prove baseline fidelity, not independent source verification or permission.",
     "GitHub-hosted CI and Streamlit Cloud not executed.",
     "Physical mobile and screen-reader review not performed."
-  ]
+  ],
+  "owner_authorized_release_check": {
+    "recorded_date": "2026-11-06",
+    "reviewed_candidate": "7bb51fc397b37317ea9b8d1918fa2a4a175818a2",
+    "suite": "124 passed",
+    "permission_confirmation": "Owner-provided; not independently verified; no license terms invented",
+    "deployment": "Not authorized",
+    "evidence_scope": "Local pre-push checks; GitHub/Actions verification reported separately"
+  }
 }

@@ -28,9 +28,22 @@ def test_closed_inventory_and_all_reachable_history_exclude_private_captures():
     assert result['private_source_blobs_reachable'] is False
 
 
-def test_publication_gate_refuses_unresolved_rights_or_missing_owner_approval():
-    # This remains blocked deliberately while the candidate is under review.
-    with pytest.raises(AssertionError,match='Publication blocked'):check(require_clearance=True)
+def test_publication_gate_refuses_unresolved_rights_or_missing_owner_approval(monkeypatch):
+    # Test each refusal independently of the real, owner-authorized release state.
+    original_read_text=Path.read_text
+    status_path=ROOT/'publication/rights_status.json'
+    for resolved,approved in [(False,False),(False,True),(True,False)]:
+        def read_text(path,*args,**kwargs):
+            text=original_read_text(path,*args,**kwargs)
+            if path==status_path:
+                status=json.loads(text)
+                status.update(rights_basis_resolved=resolved,owner_release_approved=approved)
+                return json.dumps(status)
+            return text
+        with monkeypatch.context() as patch:
+            patch.setattr(Path,'read_text',read_text)
+            with pytest.raises(AssertionError,match='Publication blocked'):check(require_clearance=True)
+    assert check(require_clearance=True)['owner_release_approved'] is True
 
 
 def test_only_the_three_original_input_csvs_are_distributed():

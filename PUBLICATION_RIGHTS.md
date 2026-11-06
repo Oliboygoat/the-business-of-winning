@@ -1,8 +1,18 @@
 # Facts-only real-data publication candidate
 
-**October 27, 2026 · Local preparation only · Rights questions remain open.**
+**Owner-authorized release recorded November 6, 2026. Historical assessment dated October 27, 2026 is retained below.**
 
-This package is proposed for a real MLB research dashboard, not a synthetic demonstration. It has fresh local Git history and excludes publisher articles/page extracts, raw MLB responses, newspaper issues, private recovery archives and unnecessary comparison datasets. Technical readiness does not itself establish legal clearance. No push or deployment is authorized by this document.
+## Recorded owner confirmation and release decision
+
+On November 6, 2026, the project owner stated directly that they have permission to publish the relevant AP and The Baseball Cube payroll data in their public GitHub repository and publicly accessible Streamlit dashboard, and explicitly authorized publishing the cleaned 62-file candidate at `7bb51fc` to `https://github.com/Oliboygoat/the-business-of-winning.git`. This release proceeds on that owner-provided confirmation and authorization.
+
+No permission documents or license terms were independently inspected, and this record does not invent conditions, grant a blanket downstream data license, or claim that a lawyer independently cleared every source/acquisition question. The earlier factual-data assessment and its qualifications remain documented. The gate's `rights_basis_resolved` field records the owner's release decision on this stated basis; it is not an independent legal finding. The original payroll definitions and 2022 source restriction remain in force.
+
+Only this isolated candidate is authorized for GitHub publication. The original private history and research archives remain private. Paid AI stays disabled. **Streamlit deployment has not been authorized.**
+
+## Historical pre-release assessment
+
+This package is proposed for a real MLB research dashboard, not a synthetic demonstration. It has fresh local Git history and excludes publisher articles/page extracts, raw MLB responses, newspaper issues, private recovery archives and unnecessary comparison datasets. Technical readiness does not itself establish legal clearance. The following paragraphs preserve the prior assessment; the owner authorization recorded above supersedes its pending-publication status, not its factual qualifications.
 
 ## Exactly which data is proposed
 
@@ -59,7 +69,7 @@ Ask a qualified U.S. copyright/technology reviewer to evaluate **this candidate*
 
 No contacts or purchases have been made. No broad archive, live feed or commercial data resale is proposed. Do not claim contractual certainty from the fact that the app is free or academically oriented.
 
-`publication/rights_status.json` records unresolved questions and missing final owner approval. `python scripts/check_publication.py` validates packaging; **`python scripts/check_publication.py --require-clearance` intentionally fails** until those specific rights decisions and approval are documented. This is a review gate, not a legal determination or an unbypassable security control.
+`publication/rights_status.json` records the owner confirmation, approval and historical questions not independently adjudicated. `python scripts/check_publication.py` validates packaging; `python scripts/check_publication.py --require-clearance` now checks the recorded release decision and owner approval. This is a review gate, not a legal determination or an unbypassable security control.
 
 ## Technical and research integrity
 
@@ -67,4 +77,4 @@ The original repository, source captures, complete audit/research work and verif
 
 The interface/layout is retained. Only the reproducibility expander's instructions and source notes were corrected to explain that captures are not distributed. The app's input CSVs, analytical functions, chart code, selectors, team comparisons and free Analyst code are unchanged. Paid AI stays disabled in code; runtime dependencies omit its SDK. No synthetic values, replacement payroll definitions or new AP 2022 figures are introduced.
 
-This is a technically runnable local real-data candidate, **not a cleared public release**. Nothing should be pushed or deployed until the specific rights basis is resolved and the owner approves this exact artifact.
+The earlier independent-review limitations remain stated above. GitHub publication of this exact candidate is now authorized on the recorded owner-provided basis. Streamlit deployment remains a separate owner decision.

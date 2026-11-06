@@ -4,7 +4,7 @@
 
 A Python and Streamlit dashboard comparing verified Opening Day payroll and regular-season results for 30 franchises across 2021–2026. Explore payroll versus wins, team comparisons, annual trends, consistency, statistical diagnostics and a free deterministic Analyst demo.
 
-**Local facts-only release candidate. Not yet approved for publication.** This package contains real numerical records, not synthetic data. Publisher article captures and raw API responses are deliberately excluded. Read [PUBLICATION_RIGHTS.md](PUBLICATION_RIGHTS.md) for the factual-data rationale, acquisition-term questions and the exact scope needing resolution. Source attribution is not treated as permission.
+**Facts-only real-data release, authorized by the project owner on November 6, 2026.** This package contains real numerical records, not synthetic data. Publisher article captures and raw API responses are deliberately excluded. Read [PUBLICATION_RIGHTS.md](PUBLICATION_RIGHTS.md) for the owner-provided permission confirmation, factual-data rationale and historical acquisition-term questions. The confirmation has not been independently verified. Source attribution is not treated as permission.
 
 ## Explore the dashboard
 
@@ -66,6 +66,6 @@ scripts/, tests/               Verification, smoke test and full test suite
 
 ## Publication status
 
-This candidate is isolated from the private research history. The intended target, only after approval, is GitHub `main` and Streamlit `app.py`, Python 3.12, root `requirements.txt`, **Secrets empty**. No workflow deploys the app. `python scripts/check_publication.py --require-clearance` intentionally blocks an unresolved release. See [PUBLICATION_RIGHTS.md](PUBLICATION_RIGHTS.md) for the narrow practical next steps.
+This candidate is isolated from the private research history. The owner-authorized target is GitHub `main` and Streamlit `app.py`, Python 3.12, root `requirements.txt`, **Secrets empty**. No workflow deploys the app. `python scripts/check_publication.py --require-clearance` checks the recorded owner release decision; it does not independently verify a license. Streamlit deployment remains unapproved. See [PUBLICATION_RIGHTS.md](PUBLICATION_RIGHTS.md) for the narrow practical next steps.
 
 This independent project is not affiliated with or endorsed by MLB, AP or the cited publishers. No publisher text, page layout, photograph or source capture is licensed through this repository. No blanket license is assigned over third-party rights. Source URLs and historical capture hashes remain for transparency.

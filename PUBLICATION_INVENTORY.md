@@ -1,8 +1,8 @@
 # Proposed public inventory
 
-**Local real-data candidate only. No files have been published.**
+**Owner-authorized 62-file real-data release. Permission confirmation recorded November 6, 2026; see `PUBLICATION_RIGHTS.md`.**
 
-This candidate contains **62 tracked files**. `publication/public_inventory.json` supplies their exact SHA-256 digests (except its self-entry); the private preparation receipt seals that inventory. File inclusion is a publication proposal, not a rights grant.
+This candidate contains **62 tracked files**. `publication/public_inventory.json` supplies their exact SHA-256 digests (except its self-entry); the private preparation receipt seals that inventory. File inclusion follows the owner-approved candidate; it does not itself grant a license.
 
 ## Exact proposed file list
 
@@ -85,4 +85,4 @@ The original private project retains every original file, including the original
 
 Only three CSV inputs are proposed: 180 unique team-season records, the required 30-row duplicate 2025 input, and six CPI observations. TBC supplies only 30 payroll values for 2022; no extra TBC 2025 dataset or AP 2022 narrative figures are exported. Calculated outputs in the diagnostics/baseline are project-generated results.
 
-Read `PUBLICATION_RIGHTS.md` and `publication/rights_status.json`: factual copyright principles, applicable acquisition terms and final owner approval remain separate gates. No push or Streamlit deployment should occur until those decisions are recorded.
+Read `PUBLICATION_RIGHTS.md` and `publication/rights_status.json`: the owner-provided permission and GitHub release approval are recorded separately from the historical legal assessment. The confirmation was not independently verified. Streamlit deployment remains unapproved.
